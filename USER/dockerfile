@@ -4,3 +4,4 @@ RUN useradd saivenkat
 USER saivenkat
 # CMD ["google.com"]
 # ENTRYPOINT ["Ping"]
+RUN ["sleep","1000"]
