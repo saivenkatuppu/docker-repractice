@@ -1,4 +1,4 @@
 FROM almalinux:9
-LABEL COURSE="DevOps" /
-      TRAINER="saivenkat" /
+LABEL COURSE="DevOps" \
+      TRAINER="saivenkat" \
       DURATION="130-hrs"
