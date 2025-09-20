@@ -1,0 +1,7 @@
+FROM almalinux:9
+ENV COURSE="devops"
+    DURATION ="120hr"
+ARG trainer="saivenkat"
+ENV trainer=$trainer
+RUN echo "Hi, Course is: ${course}, duration is: ${duration}, trainer is: ${trainer}, version: ${version}"
+CMD ["sleep", "1000"]
